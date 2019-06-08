@@ -26,7 +26,9 @@ public class FileOutputOne2 {
 			/* 如果沒有 data.txt檔案，就自動建立data.txt檔案，如果有 data.txt檔案，程式執行時的輸出的資料會從檔案內容結尾處繼續新增，不會覆蓋掉檔案原始資料。 */
 			fileOutputStream = new FileOutputStream("data.txt", true);
 			
+			/* 設定輸出的檔案編碼格式為big5 */
 			outputStreamWriter = new OutputStreamWriter(fileOutputStream, "big5");
+			
 			bufferedWriter = new BufferedWriter(outputStreamWriter);
 			bufferedWriter.write("line one");
 			bufferedWriter.newLine();
