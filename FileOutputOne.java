@@ -27,6 +27,7 @@ public class FileOutputOne {
 			outputStreamWriter = new OutputStreamWriter(fileOutputStream, "big5");/* 設定輸出的檔案編碼格式為 big5 */
 			bufferedWriter = new BufferedWriter(outputStreamWriter);
 			bufferedWriter.write("line one");
+			/* 換下一行，以 Windows 作業系統電腦來說，這個函數會輸出 \r\n 換行符號。 */
 			bufferedWriter.newLine();
 			bufferedWriter.write("第二行");
 			bufferedWriter.newLine();
