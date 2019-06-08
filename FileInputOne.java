@@ -29,7 +29,6 @@ public class FileInputOne {
 			/* 如果沒設編碼，讀出來的繁體中文字會變成亂碼。 */
 			inputStreamReader = new InputStreamReader(fileInputStream, "big5");
 			
-			
 			bufferedReader = new BufferedReader(inputStreamReader);
 			while ((input = bufferedReader.readLine()) != null) {
 				System.out.println(input);
