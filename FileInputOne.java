@@ -1,6 +1,6 @@
 /*  
 file encoding="UTF-8 with no BOM"
-file name: ConsoleInputOne.java
+file name: FileInputOne.java
 Java jdk version: 1.8.0_171
 Java jre version: 1.8.0_171
 IDE: Eclipse IDE for Enterprise Java Developers
