@@ -16,7 +16,6 @@ public class IdentityCheckTest {
 		boolean checkB = identityCheck.check(testID);
 
 		// A123456789
-		// M140051653
 		if (true == checkB) {
 			System.out.println("Yes. 這是合法的身分證字號");
 		} else {
